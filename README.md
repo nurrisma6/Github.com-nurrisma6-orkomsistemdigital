@@ -1,3 +1,4 @@
+'''text
 MULAI
 
   INPUT desimal
@@ -25,3 +26,4 @@ MULAI
   SELESAI KONDISI
 
 SELESAI
+'''
