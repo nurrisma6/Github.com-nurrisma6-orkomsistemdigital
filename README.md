@@ -12,15 +12,15 @@ MULAI
     angka = desimal
     biner = ""
 
-  SELAMA angka > 0 LAKUKAN
-    hasilBagi = angka DIV 2
-    sisa = angka MOD 2
-    biner = GABUNGKAN(sisa, biner)
-    angka = hasilBagi
-  SELESAI SELAMA
+    SELAMA angka > 0 LAKUKAN
+      hasilBagi = angka DIV 2
+      sisa = angka MOD 2
+      biner = GABUNGKAN(sisa, biner)
+      angka = hasilBagi
+    SELESAI SELAMA
 
-  TAMPILKAN "Bilangan Desimal: ", desimal
-  TAMPILKAN "Bilangan Biner: ", biner
+    TAMPILKAN "Bilangan Desimal: ", desimal
+    TAMPILKAN "Bilangan Biner: ", biner
 
   SELESAI KONDISI
 
